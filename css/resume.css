@@ -110,14 +110,23 @@ a {
     color: #824027; }
 
 /* New styles for counters */
+.counter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
 .counter-container {
   display: flex;
   justify-content: space-around;
   margin-top: 2rem;
+  position: relative;
+  flex-direction: column;
 }
 
 .counter-box {
   flex: 1;
+  position: relative;
   padding: 2rem;
   border: 1px solid #dee2e6;
   border-radius: 8px;
