@@ -89,11 +89,9 @@ section.resume-section {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh; }
+    min-height: 100vh; padding-top: 5em; padding-bottom: 8em; }
     section.resume-section .resume-item .resume-date {
-      min-width: 18rem; }
-      section.resume-section .resume-item .resume-date p {
-        text-align: left; } }
+      min-width: 18rem; }}
 
 @media (min-width: 992px) {
   section.resume-section {
