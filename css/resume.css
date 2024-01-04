@@ -128,7 +128,7 @@ a {
 
 .counter-box {
   flex: 1;
-  max-width: calc(33.333% - 2rem); /* Adjust the width to occupy one-third of the space with some margin between boxes */
+  /* max-width: calc(33.333% - 2rem); Adjust the width to occupy one-third of the space with some margin between boxes */
   margin: 1rem; /* Add some margin around each box */
   padding: 1rem;
   border: 1px solid #dee2e6;
