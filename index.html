@@ -5,8 +5,11 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="Passionate and seasoned software developer specializing in Artificial Intelligence, with a background at the Inter University Centre for Astronomy and Astrophysics (IUCAA) under ISRO. Currently pursuing a Master's in A.I. at the University of Michigan – Dearborn, my expertise spans Python, machine learning, data science, and graphics technologies. From leading projects in satellite data analysis to crafting innovative Windows multiplayer games, I am dedicated to pushing the boundaries of technology through agile methodologies and cutting-edge skills.">
+	<meta name="author" content="Atharva Pore">
+	<meta property='og:url' content='https://atharvapore01.github.io'/>
+	<!-- Your thumbnail image URL -->
+    <meta property='og:image' content='https://github.com/AtharvaPore01/AtharvaPore01.github.io/blob/main/img/profile.jpg'/>
 
 	<title>The Atharva Pore</title>
 
@@ -26,6 +29,20 @@
 	<!-- Custom styles for this template -->
 	<link href="css/resume.css" rel="stylesheet">
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+	<!-- Dynamic og:image:width and og:image:height tags -->
+    <script>
+        var img = new Image();
+        img.src = 'https://github.com/AtharvaPore01/AtharvaPore01.github.io/blob/main/img/profile.jpg';
+
+        img.onload = function() {
+            var width = img.width;
+            var height = img.height;
+
+            document.querySelector('meta[property="og:image:width"]').setAttribute('content', width);
+            document.querySelector('meta[property="og:image:height"]').setAttribute('content', height);
+        };
+    </script>
 
 </head>
 
