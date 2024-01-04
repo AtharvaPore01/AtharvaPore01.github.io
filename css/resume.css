@@ -92,7 +92,7 @@ section.resume-section {
   section.resume-section {
     min-height: 100vh; }
     section.resume-section .resume-item .resume-date {
-      min-width: 12rem; } }
+      min-width: 10rem; } }
 
 @media (min-width: 992px) {
   section.resume-section {
