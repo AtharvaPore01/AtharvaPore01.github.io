@@ -91,7 +91,9 @@ section.resume-section {
   section.resume-section {
     min-height: 100vh; }
     section.resume-section .resume-item .resume-date {
-      min-width: 18rem; } }
+      min-width: 18rem; }
+      section.resume-section .resume-item .resume-date p {
+        align-content: left; } }
 
 @media (min-width: 992px) {
   section.resume-section {
