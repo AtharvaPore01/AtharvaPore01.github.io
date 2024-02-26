@@ -404,8 +404,8 @@ a {
 
 /* Common styles for all devices */
 .icon-box {
-  width: 120px; /* Adjust icon box width */
-  height: 120px; /* Adjust icon box height */
+  width: 80px; /* Adjust icon box width */
+  height: 80px; /* Adjust icon box height */
   background-color: rgba(240, 240, 240, 0); /* Transparent background */
   border: 1px solid #ccc; /* Adjust box border color */
   border-radius: 8px; /* Adjust box border radius */
@@ -416,7 +416,7 @@ a {
 }
 
 .icon-box i {
-  font-size: 60px; /* Adjust icon size */
+  font-size: 50px; /* Adjust icon size */
   color: #333; /* Adjust icon color */
   position: absolute;
   top: 50%;
