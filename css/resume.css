@@ -162,6 +162,14 @@ a {
   }
 }
 
+@media (max-width: 480px) {
+  .counter-box {
+    flex: 1 1 calc(100% - 1rem);
+    max-width: calc(100% - 1rem);
+  }
+}
+
+
 
 /* .counter-container {
   display: flex;
