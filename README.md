@@ -6,6 +6,7 @@
   <a href="https://atharvapore01.github.io" class="portfolio-button">Explore Portfolio</a>
 </div>
 
+<style>
 .portfolio-button {
   display: inline-block;
   padding: 10px 20px;
@@ -23,4 +24,4 @@
   color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-
+</style>
