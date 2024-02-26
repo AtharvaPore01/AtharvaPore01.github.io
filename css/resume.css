@@ -402,3 +402,61 @@ a {
   background-color: #0056b3;
 }
 
+/* Common styles for all devices */
+.icon-box {
+  width: 120px; /* Adjust icon box width */
+  height: 120px; /* Adjust icon box height */
+  background-color: rgba(240, 240, 240, 0); /* Transparent background */
+  border: 1px solid #ccc; /* Adjust box border color */
+  border-radius: 8px; /* Adjust box border radius */
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for 3D effect */
+}
+
+.icon-box i {
+  font-size: 60px; /* Adjust icon size */
+  color: #333; /* Adjust icon color */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+.icon-box:hover i {
+  color: #BD5D38; /* Adjust icon color on hover */
+}
+
+.icon-box:hover {
+  transform: translateY(-2px); /* Adjust hover effect */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Adjust box shadow on hover for deeper effect */
+}
+
+/* Media queries for responsive design */
+
+/* Tablets (portrait and landscape) */
+@media only screen and (max-width: 768px) {
+  .icon-box {
+    width: 100px; /* Adjust icon box width for tablets */
+    height: 100px; /* Adjust icon box height for tablets */
+  }
+
+  .icon-box i {
+    font-size: 40px; /* Adjust icon size for tablets */
+  }
+}
+
+/* Phones (portrait and landscape) */
+@media only screen and (max-width: 480px) {
+  .icon-box {
+    width: 80px; /* Adjust icon box width for phones */
+    height: 80px; /* Adjust icon box height for phones */
+  }
+
+  .icon-box i {
+    font-size: 30px; /* Adjust icon size for phones */
+  }
+}
+
